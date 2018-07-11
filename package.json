@@ -1,0 +1,30 @@
+{
+  "name": "watsface",
+  "author": "Luke F",
+  "version": "1.1.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "pebble": {
+    "displayName": "watsface",
+    "uuid": "3051ee3e-3e22-4e4d-bd56-03553fb352aa",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [		
+        { "type": "bitmap", "name": "FONT_ATLAS", "file": "font.png" },
+		{ "type": "bitmap", "name": "MENU_ICON", "file": "wat.png", "menuIcon": true }                    
+      ]
+    }
+  }
+}
